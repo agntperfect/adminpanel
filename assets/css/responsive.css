@@ -1,0 +1,78 @@
+*{
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+.container {
+    overflow: hidden;
+    position: absolute !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+.box-1 {
+    width: 100% !important;
+    height: 30% !important;
+}
+
+.box-2 {
+    border-radius: 12px;
+}
+
+.box-2 .login a {
+    display: block;
+    margin: 10px !important;
+    text-decoration: none;
+    padding: 14px 0!important;
+    font-size: 16px !important;
+}
+
+.login-button {
+    margin-top: -10px !important;
+    font-size: 1.075em !important;
+}
+
+.content-holder p span {
+    display: none;
+}
+
+.content-holder p {
+    font-size: 12px;
+}
+
+.content-holder h2 {
+    font-size: 3em !important;
+}
+
+.signup .input-field {
+    width: 250px !important;
+    margin: 2% 0 0 0 !important;
+}
+
+.signup-active{
+    margin: -5% 10px 0 10px !important;
+}
+
+.login-active {
+    margin: 0% 10px 0 10px !important;
+}
+
+.alert {
+    top: 0 !important;
+    left: 0 !important;
+    height: 10px !important;
+    padding: 5px 10px 10px !important;
+    width: 95% !important;
+    text-align: center;
+}
+
+.error {
+    display: none !important;
+}
+
+.closebtn {
+    margin-top: -0.5% !important;
+}

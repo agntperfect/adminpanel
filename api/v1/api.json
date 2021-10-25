@@ -1,0 +1,17 @@
+{
+    "name": "API",
+    "server": "localhost",
+    "port": "80",
+    "url": "http://localhost/adminpanel/",
+    "version": "0.0.1",
+    "created": "Wednesday, July 14, 2021 9:58:33.114 PM GMT+05:45",
+    "timestamp": "1626279213114",
+    "Created_date": " Wednesday, July 14, 2021 4:13:33.114 PM",
+    "icon_url": "http://localhost/adminpanel/api/v1/index.php?type={regular,solid,logo}",
+    "icon_preview": "",
+    "api_url": "http://localhost/adminpanel/api/v1/index.php",
+    "user_data": "http://localhost/adminpanel/api/v1/index.php?id={client_id}",
+    "emoji_urls": "https://api.github.com/emojis",
+    "developer": "Agent Perfect",
+    "home_page": "https://www.kabstore.com.np"
+}

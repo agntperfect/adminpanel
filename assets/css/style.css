@@ -1,0 +1,243 @@
+@import url("responsive.css") screen and (max-width: 620px);
+* {
+    margin: 0px;
+    padding: 0px;;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: whitesmoke;
+    overflow: hidden;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: red;
+    background: linear-gradient(to bottom, #066ce0,  #0e307a);
+    width: 800px;
+    height: 400px;
+    margin: 10% auto;;
+    border-radius: 5px;
+}
+
+.content-holder
+{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 15%;
+    padding: 50px;
+}
+
+.content-holder h2
+{
+    font-size: 34px;
+    margin: 20px auto;
+}
+
+.content-holder p
+{
+    margin: 30px auto;
+}
+
+.content-holder button
+{
+    border:none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+    width: 150px;
+    margin: 20px auto;
+}
+
+
+.box-2{
+    background-color: white;
+    margin: 5px;
+}
+
+.login-form-container
+{
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.login-form-container h1
+{
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.input-field
+{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(168, 168, 168);
+    width: 250px;
+    outline: none;
+}
+
+.login-button{
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    outline: none;
+    background-color: #3866bd;
+}
+
+.button-2
+{
+    display: none;
+}
+
+.signup-form-container
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    text-align: center;
+    display: none;
+}
+
+
+.signup-form-container h1
+{
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.signup-button{
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    outline: none;
+    margin-top: 2%;
+    background-color: rgb(56, 102, 189);  
+}
+
+.signup {
+    margin-top: -3%;
+}
+
+.signup input {
+    margin-top: 4px;
+    width: 50%;
+}
+
+#privacy {
+    width: 10px;
+}
+
+.signup h1 {
+    color: black;
+    font-size: 24px;
+    margin: 3% 0 1% 0;
+    padding: 5px;
+}
+
+.signup .privacy-stat {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+}
+ 
+.have-ac  {
+    font-size: 12px;
+}
+.alert {
+    padding: 20px;
+    background-color: #ff0000;
+    border-left: 6px solid #880900;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    position: absolute;
+    /* padding: 10px 10%; */
+    height: 20px;
+    right: 0;
+    top: 2%;
+    /* transform: translate(%, -5%); */
+    display: none;
+    margin-bottom: 15px;
+    animation: mymove 1s ease;
+    /* padding: 5px 48px; */
+}
+  
+.alert.success {
+    background-color: #04AA6D;
+    border-left: 6px solid #036d46;
+}
+.alert.info {
+    border-left: 6px solid #2196F3;
+    background-color: #004177;
+}
+.alert.warning {
+    background-color: #ff9800;
+    border-left: 6px solid #857700;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.closebtn:hover {
+    color: black;
+}
+
+.error {
+    /* display: inline-block; */
+    position: relative;
+    text-align: center;
+    padding: 5px 12px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 10px 0 0px;
+    border-radius: 50%;
+    background-color: black;
+    height: 20px;
+    user-select: none !important;
+    width: 20px;
+}
+
+.countrycode {
+    width: 75px;
+}
+
+.countrycode:active {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+@keyframes mymove {
+    from {right: -25%}
+    to {right: 0}
+}
